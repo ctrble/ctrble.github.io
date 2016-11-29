@@ -570,6 +570,11 @@ li {
   align-items: center;
 }
 
+.menu__item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .menu__item--social {
   display: flex;
   flex-direction: row;
@@ -649,7 +654,7 @@ li {
   font-size: 1em;
 }
 
-/* Sidebar > 750 */
+/* Sidebar > 550 */
 
 .menu__item--social {
   width: 40%;
@@ -669,6 +674,12 @@ li {
 .menu {
   flex-direction: row;
   justify-content: space-between;
+}
+
+.menu__item {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-size: 1.5rem;
 }
 
 .menu__item--social {
@@ -723,6 +734,12 @@ li {
   align-items: flex-end;
   height: 50vh;
   margin-right: 0.5rem;
+}
+
+.menu__item {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.5rem;
 }
 
 .menu__item--social {
