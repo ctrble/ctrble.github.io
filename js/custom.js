@@ -9,6 +9,6 @@ inView('.visible')
      });
 
 var nightMode = new NightMode({
-     evening: new DayTime(22, 0), // or evening: DayTime.fromString('22:00')
-     morning: new DayTime(6, 30), // or morning: DayTime.fromString('5:30')
+     evening: new DayTime(22, 0),
+     morning: new DayTime(6, 30),
      });
